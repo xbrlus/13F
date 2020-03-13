@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--XBRL US Holdings Taxonomy for 13F filings in EDGAR-->
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <labelLink
+      xlink:role="http://www.xbrl.org/2003/role/link"
+      xlink:type="extended">
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_HeaderDataAbstract"
+          xlink:label="hold_HeaderDataAbstract"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_HeaderDataAbstract"
+          xlink:to="label_hold_HeaderDataAbstract"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_HeaderDataAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Header Data [Abstract]</label>
+        <label
+          xlink:label="label_hold_HeaderDataAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Header</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_FilerInfoAbstract"
+          xlink:label="hold_FilerInfoAbstract"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_FilerInfoAbstract"
+          xlink:to="label_hold_FilerInfoAbstract"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_FilerInfoAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Filer Info [Abstract]</label>
+        <label
+          xlink:label="label_hold_FilerInfoAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Filer information</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_LiveTestFlag"
+          xlink:label="hold_LiveTestFlag"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_LiveTestFlag"
+          xlink:to="label_hold_LiveTestFlag"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_LiveTestFlag"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Live Test Flag</label>
+        <label
+          xlink:label="label_hold_LiveTestFlag"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Live test flag</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_CIKorCCC"
+          xlink:label="hold_CIKorCCC"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_CIKorCCC"
+          xlink:to="label_hold_CIKorCCC"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_CIKorCCC"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">CIK or CCC</label>
+        <label
+          xlink:label="label_hold_CIKorCCC"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">13F credential - this is either the Central Index Key or or the CIK Confirmation Code (https://www.sec.gov/info/edgar/cfedgarguidance.htm)</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_NotificationEmailAddress"
+          xlink:label="hold_NotificationEmailAddress"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_NotificationEmailAddress"
+          xlink:to="label_hold_NotificationEmailAddress"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_NotificationEmailAddress"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Notification Email Address</label>
+        <label
+          xlink:label="label_hold_NotificationEmailAddress"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Email address used for filer notifications.</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_PeriodOfReport"
+          xlink:label="hold_PeriodOfReport"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_PeriodOfReport"
+          xlink:to="label_hold_PeriodOfReport"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_PeriodOfReport"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Period of Report</label>
+        <label
+          xlink:label="label_hold_PeriodOfReport"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">End date of the report.</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_CoverPageAbstract"
+          xlink:label="hold_CoverPageAbstract"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_CoverPageAbstract"
+          xlink:to="label_hold_CoverPageAbstract"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_CoverPageAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Cover Page [Abstract]</label>
+        <label
+          xlink:label="label_hold_CoverPageAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Cover page</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_ReportCalendarOrQuarter"
+          xlink:label="hold_ReportCalendarOrQuarter"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_ReportCalendarOrQuarter"
+          xlink:to="label_hold_ReportCalendarOrQuarter"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_ReportCalendarOrQuarter"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Report Calendar or Quarter</label>
+        <label
+          xlink:label="label_hold_ReportCalendarOrQuarter"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">End date of the report for the calendar year or quarter.</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_AmendmentNo"
+          xlink:label="hold_AmendmentNo"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_AmendmentNo"
+          xlink:to="label_hold_AmendmentNo"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_AmendmentNo"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Amendment Number</label>
+        <label
+          xlink:label="label_hold_AmendmentNo"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Sequential number of an amended filing</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_AmendmentType"
+          xlink:label="hold_AmendmentType"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_AmendmentType"
+          xlink:to="label_hold_AmendmentType"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_AmendmentType"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Amendment Type</label>
+        <label
+          xlink:label="label_hold_AmendmentType"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Indicates whether the amended filing is a restatement or adds new holdings entries.</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_AdditionalInformation"
+          xlink:label="hold_AdditionalInformation"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_AdditionalInformation"
+          xlink:to="label_hold_AdditionalInformation"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_AdditionalInformation"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Additional Information</label>
+        <label
+          xlink:label="label_hold_AdditionalInformation"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Additional information that does not, either by its nature, quantity, or manner of presentation, impede the understanding or presentation of the required information.</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_FilingManagerAbstract"
+          xlink:label="hold_FilingManagerAbstract"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_FilingManagerAbstract"
+          xlink:to="label_hold_FilingManagerAbstract"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_FilingManagerAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Filing Manager [Abstract]</label>
+        <label
+          xlink:label="label_hold_FilingManagerAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Filing manager</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_FilingManagerAddressAbstract"
+          xlink:label="hold_FilingManagerAddressAbstract"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_FilingManagerAddressAbstract"
+          xlink:to="label_hold_FilingManagerAddressAbstract"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_FilingManagerAddressAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Filing Manager Address [Abstract]</label>
+        <label
+          xlink:label="label_hold_FilingManagerAddressAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Filing manager address</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_SignatureBlockAbstract"
+          xlink:label="hold_SignatureBlockAbstract"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_SignatureBlockAbstract"
+          xlink:to="label_hold_SignatureBlockAbstract"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_SignatureBlockAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Signature Block [Abstract]</label>
+        <label
+          xlink:label="label_hold_SignatureBlockAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Signature block</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_SignatureName"
+          xlink:label="hold_SignatureName"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_SignatureName"
+          xlink:to="label_hold_SignatureName"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_SignatureName"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Signature Name</label>
+        <label
+          xlink:label="label_hold_SignatureName"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Name of the individual signing the report.</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_SignatureTitle"
+          xlink:label="hold_SignatureTitle"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_SignatureTitle"
+          xlink:to="label_hold_SignatureTitle"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_SignatureTitle"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Signature Title</label>
+        <label
+          xlink:label="label_hold_SignatureTitle"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Job title of the individual signing the report.</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_SignaturePhone"
+          xlink:label="hold_SignaturePhone"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_SignaturePhone"
+          xlink:to="label_hold_SignaturePhone"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_SignaturePhone"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Signature Phone</label>
+        <label
+          xlink:label="label_hold_SignaturePhone"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Phone number of the individual signing the report.</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_SignatureCity"
+          xlink:label="hold_SignatureCity"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_SignatureCity"
+          xlink:to="label_hold_SignatureCity"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_SignatureCity"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Signature City</label>
+        <label
+          xlink:label="label_hold_SignatureCity"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">City of the individual signing the report.</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_SignatureStateOrCountry"
+          xlink:label="hold_SignatureStateOrCountry"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_SignatureStateOrCountry"
+          xlink:to="label_hold_SignatureStateOrCountry"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_SignatureStateOrCountry"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Signature State Or Country</label>
+        <label
+          xlink:label="label_hold_SignatureStateOrCountry"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">State or country of the individual signing the report.</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_Signature"
+          xlink:label="hold_Signature"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_Signature"
+          xlink:to="label_hold_Signature"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_Signature"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Signature</label>
+        <label
+          xlink:label="label_hold_Signature"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Signature of the individual signing the report.</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_SignatureDate"
+          xlink:label="hold_SignatureDate"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_SignatureDate"
+          xlink:to="label_hold_SignatureDate"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_SignatureDate"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Signature Date</label>
+        <label
+          xlink:label="label_hold_SignatureDate"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Date the report was signed</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_SummaryPageAbstract"
+          xlink:label="hold_SummaryPageAbstract"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_SummaryPageAbstract"
+          xlink:to="label_hold_SummaryPageAbstract"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_SummaryPageAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Summary Page [Abstract]</label>
+        <label
+          xlink:label="label_hold_SummaryPageAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Summary page</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_OtherIncludedManagersCount"
+          xlink:label="hold_OtherIncludedManagersCount"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_OtherIncludedManagersCount"
+          xlink:to="label_hold_OtherIncludedManagersCount"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_OtherIncludedManagersCount"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Other Included Managers Count</label>
+        <label
+          xlink:label="label_hold_OtherIncludedManagersCount"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Total number of additional managers not including the Manager filing the report.</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_TableEntryTotal"
+          xlink:label="hold_TableEntryTotal"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_TableEntryTotal"
+          xlink:to="label_hold_TableEntryTotal"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_TableEntryTotal"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Table Entry Total</label>
+        <label
+          xlink:label="label_hold_TableEntryTotal"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">The total number of line entries providing holdings information included in the Information Table.</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_TableValueTotal"
+          xlink:label="hold_TableValueTotal"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_TableValueTotal"
+          xlink:to="label_hold_TableValueTotal"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_TableValueTotal"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Table Value Total</label>
+        <label
+          xlink:label="label_hold_TableValueTotal"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">The aggregate fair market value of all holdings reported in this report.</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_OtherManagersAbstract"
+          xlink:label="hold_OtherManagersAbstract"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_OtherManagersAbstract"
+          xlink:to="label_hold_OtherManagersAbstract"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_OtherManagersAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Other Managers [Abstract]</label>
+        <label
+          xlink:label="label_hold_OtherManagersAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Other managers</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_OtherManagerAxis"
+          xlink:label="hold_OtherManagerAxis"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_OtherManagerAxis"
+          xlink:to="label_hold_OtherManagerAxis"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_OtherManagerAxis"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Other Manager [Axis]</label>
+        <label
+          xlink:label="label_hold_OtherManagerAxis"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">The set of Other Managers associated with a report.</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_OtherManagerSequenceNumberDomain"
+          xlink:label="hold_OtherManagerSequenceNumberDomain"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_OtherManagerSequenceNumberDomain"
+          xlink:to="label_hold_OtherManagerSequenceNumberDomain"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_OtherManagerSequenceNumberDomain"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Other Manager [Domain]</label>
+        <label
+          xlink:label="label_hold_OtherManagerSequenceNumberDomain"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Integer identifying all Other Manager(s) noted on the Holdings Summary, on whose behalf this Form 13F report is being filed with whom investment discretion is shared as to any reported holding. A blank in this field corresponds to the 13-F filer as Manager for the security.</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_SharesTableAbstract"
+          xlink:label="hold_SharesTableAbstract"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_SharesTableAbstract"
+          xlink:to="label_hold_SharesTableAbstract"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_SharesTableAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Form 13 F Shares Table [Abstract]</label>
+        <label
+          xlink:label="label_hold_SharesTableAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Detail of Shares for this 13-F filing, including those disclosed as held by Other Managers</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_SharesTableLineItems"
+          xlink:label="hold_SharesTableLineItems"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_SharesTableLineItems"
+          xlink:to="label_hold_SharesTableLineItems"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_SharesTableLineItems"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Shares Table Information Line Items</label>
+        <label
+          xlink:label="label_hold_SharesTableLineItems"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Line items represent securities concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_NameOfIssuer"
+          xlink:label="hold_NameOfIssuer"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_NameOfIssuer"
+          xlink:to="label_hold_NameOfIssuer"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_NameOfIssuer"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Name of Issuer</label>
+        <label
+          xlink:label="label_hold_NameOfIssuer"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Nname of the issuer for each class of security reported as it appears in the current official list of Section 13(f) Securities published by the Commission in accordance with
+rule 13f-1(c) (the “13F List”). Reasonable abbreviations are permitted.</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_TitleOfClass"
+          xlink:label="hold_TitleOfClass"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_TitleOfClass"
+          xlink:to="label_hold_TitleOfClass"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_TitleOfClass"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Title of Classes</label>
+        <label
+          xlink:label="label_hold_TitleOfClass"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">The class of the security reported as it appears in the 13F List. Reasonable abbreviations are permitted.</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_Cusip"
+          xlink:label="hold_Cusip"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_Cusip"
+          xlink:to="label_hold_Cusip"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_Cusip"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">CUSIP</label>
+        <label
+          xlink:label="label_hold_Cusip"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Committee on Uniform Securities Identification Procedures number of the security</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_SharesValue"
+          xlink:label="hold_SharesValue"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_SharesValue"
+          xlink:to="label_hold_SharesValue"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_SharesValue"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Shares Value</label>
+        <label
+          xlink:label="label_hold_SharesValue"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">The market value of the holding of the particular class of security  at the close of trading on the last trading day of the calendar year or quarter, as appropriate. Enter values rounded to the nearest one thousand dollars (with “000” omitted).</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_ShrsOrPrnAmtAbstract"
+          xlink:label="hold_ShrsOrPrnAmtAbstract"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_ShrsOrPrnAmtAbstract"
+          xlink:to="label_hold_ShrsOrPrnAmtAbstract"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_ShrsOrPrnAmtAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Shares or Principal Amount [Abstract]</label>
+        <label
+          xlink:label="label_hold_ShrsOrPrnAmtAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Number of shares or principal amount under management for the entity issuing shares.</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_SshPrnamt"
+          xlink:label="hold_SshPrnamt"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_SshPrnamt"
+          xlink:to="label_hold_SshPrnamt"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_SshPrnamt"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Amount</label>
+        <label
+          xlink:label="label_hold_SshPrnamt"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">The total number of shares of the class of security or the principal amount of such class.</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_SshPrnamtType"
+          xlink:label="hold_SshPrnamtType"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_SshPrnamtType"
+          xlink:to="label_hold_SshPrnamtType"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_SshPrnamtType"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Principal Amount Type</label>
+        <label
+          xlink:label="label_hold_SshPrnamtType"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Notation of the amount as shares (SH) or principal (PRN)</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_PutCall"
+          xlink:label="hold_PutCall"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_PutCall"
+          xlink:to="label_hold_PutCall"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_PutCall"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Put or Call</label>
+        <label
+          xlink:label="label_hold_PutCall"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Option designation of shares under management from the issuing entity</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_InvestmentDiscretion"
+          xlink:label="hold_InvestmentDiscretion"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_InvestmentDiscretion"
+          xlink:to="label_hold_InvestmentDiscretion"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_InvestmentDiscretion"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Investment Discretion</label>
+        <label
+          xlink:label="label_hold_InvestmentDiscretion"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Status of the shares under management as sole, shared defined, or shared other (see section 12. b. vi. of https://www.sec.gov/pdf/form13f.pdf).</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_VotingAuthorityAbstract"
+          xlink:label="hold_VotingAuthorityAbstract"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_VotingAuthorityAbstract"
+          xlink:to="label_hold_VotingAuthorityAbstract"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_VotingAuthorityAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Voting Authority [Abstract]</label>
+        <label
+          xlink:label="label_hold_VotingAuthorityAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">The number of shares for which the Manager exercises voting authority, as noted.</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_VotingAuthoritySole"
+          xlink:label="hold_VotingAuthoritySole"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_VotingAuthoritySole"
+          xlink:to="label_hold_VotingAuthoritySole"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_VotingAuthoritySole"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Voting Authority Sole</label>
+        <label
+          xlink:label="label_hold_VotingAuthoritySole"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">The number of shares for which the Manager exercises sole voting authority.</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_VotingAuthorityShared"
+          xlink:label="hold_VotingAuthorityShared"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_VotingAuthorityShared"
+          xlink:to="label_hold_VotingAuthorityShared"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_VotingAuthorityShared"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Voting Authority Shared</label>
+        <label
+          xlink:label="label_hold_VotingAuthorityShared"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">The number of shares for which the Manager exercises shared voting authority.</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_VotingAuthorityNone"
+          xlink:label="hold_VotingAuthorityNone"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_VotingAuthorityNone"
+          xlink:to="label_hold_VotingAuthorityNone"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_VotingAuthorityNone"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Voting Authority None</label>
+        <label
+          xlink:label="label_hold_VotingAuthorityNone"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">The number of shares for which the Manager exercises no voting authority.</label>
+    </labelLink>
+</linkbase>
