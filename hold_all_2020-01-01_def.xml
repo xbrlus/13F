@@ -8,24 +8,16 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
     <arcroleRef
-      arcroleURI="http://xbrl.org/int/dim/arcrole/all"
-      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"
-      xlink:type="simple"/>
-    <arcroleRef
       arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member"
       xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"
-      xlink:type="simple"/>
-    <roleRef
-      roleURI="http://xbrl.us/hold/v0.12020-01-01/roles/filingsummary"
-      xlink:href="hold-all_2020-01-01.xsd#roleType_filingsummary"
-      xlink:type="simple"/>
-    <arcroleRef
-      arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default"
-      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default"
       xlink:type="simple"/>
     <arcroleRef
       arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain"
       xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"
+      xlink:type="simple"/>
+    <arcroleRef
+      arcroleURI="http://xbrl.org/int/dim/arcrole/all"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"
       xlink:type="simple"/>
     <roleRef
       roleURI="http://xbrl.us/hold/v0.12020-01-01/roles/sharestable"
@@ -35,9 +27,71 @@
       arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension"
       xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"
       xlink:type="simple"/>
+    <roleRef
+      roleURI="http://xbrl.us/hold/v0.12020-01-01/roles/filingsummary"
+      xlink:href="hold-all_2020-01-01.xsd#roleType_filingsummary"
+      xlink:type="simple"/>
+    <arcroleRef
+      arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default"
+      xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default"
+      xlink:type="simple"/>
     <definitionLink
       xlink:role="http://xbrl.us/hold/v0.12020-01-01/roles/filingsummary"
       xlink:type="extended">
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_SecHeaderAbstract"
+          xlink:label="hold_SecHeaderAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_SecDocumentFileName"
+          xlink:label="hold_SecDocumentFileName"
+          xlink:type="locator"/>
+        <definitionArc
+          order="1"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="hold_SecHeaderAbstract"
+          xlink:to="hold_SecDocumentFileName"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_SecDoumentURI"
+          xlink:label="hold_SecDoumentURI"
+          xlink:type="locator"/>
+        <definitionArc
+          order="2"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="hold_SecHeaderAbstract"
+          xlink:to="hold_SecDoumentURI"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_AcceptanceDateTime"
+          xlink:label="hold_AcceptanceDateTime"
+          xlink:type="locator"/>
+        <definitionArc
+          order="3"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="hold_SecHeaderAbstract"
+          xlink:to="hold_AcceptanceDateTime"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_AccessionNumber"
+          xlink:label="hold_AccessionNumber"
+          xlink:type="locator"/>
+        <definitionArc
+          order="4"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="hold_SecHeaderAbstract"
+          xlink:to="hold_AccessionNumber"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_FormType"
+          xlink:label="hold_FormType"
+          xlink:type="locator"/>
+        <definitionArc
+          order="5"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="hold_SecHeaderAbstract"
+          xlink:to="hold_FormType"
+          xlink:type="arc"/>
         <loc
           xlink:href="https://xbrl.sec.gov/dei/2019/dei-2019-01-31.xsd#dei_CoverAbstract"
           xlink:label="dei_CoverAbstract"
@@ -490,6 +544,60 @@
     <definitionLink
       xlink:role="http://xbrl.us/hold/v0.12020-01-01/roles/sharestable"
       xlink:type="extended">
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_SecHeaderAbstract"
+          xlink:label="hold_SecHeaderAbstract"
+          xlink:type="locator"/>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_SecDocumentFileName"
+          xlink:label="hold_SecDocumentFileName"
+          xlink:type="locator"/>
+        <definitionArc
+          order="1"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="hold_SecHeaderAbstract"
+          xlink:to="hold_SecDocumentFileName"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_SecDoumentURI"
+          xlink:label="hold_SecDoumentURI"
+          xlink:type="locator"/>
+        <definitionArc
+          order="2"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="hold_SecHeaderAbstract"
+          xlink:to="hold_SecDoumentURI"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_AcceptanceDateTime"
+          xlink:label="hold_AcceptanceDateTime"
+          xlink:type="locator"/>
+        <definitionArc
+          order="3"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="hold_SecHeaderAbstract"
+          xlink:to="hold_AcceptanceDateTime"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_AccessionNumber"
+          xlink:label="hold_AccessionNumber"
+          xlink:type="locator"/>
+        <definitionArc
+          order="4"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="hold_SecHeaderAbstract"
+          xlink:to="hold_AccessionNumber"
+          xlink:type="arc"/>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_FormType"
+          xlink:label="hold_FormType"
+          xlink:type="locator"/>
+        <definitionArc
+          order="5"
+          xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member"
+          xlink:from="hold_SecHeaderAbstract"
+          xlink:to="hold_FormType"
+          xlink:type="arc"/>
         <loc
           xlink:href="hold-core_2020-01-01.xsd#hold_SharesTableAbstract"
           xlink:label="hold_SharesTableAbstract"

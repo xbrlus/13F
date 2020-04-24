@@ -10,6 +10,126 @@
       xlink:role="http://www.xbrl.org/2003/role/link"
       xlink:type="extended">
         <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_SecHeaderAbstract"
+          xlink:label="hold_SecHeaderAbstract"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_SecHeaderAbstract"
+          xlink:to="label_hold_SecHeaderAbstract"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_SecHeaderAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">SEC Header [Abstract]</label>
+        <label
+          xlink:label="label_hold_SecHeaderAbstract"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">SEC header details for the filing</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_SecDocumentFileName"
+          xlink:label="hold_SecDocumentFileName"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_SecDocumentFileName"
+          xlink:to="label_hold_SecDocumentFileName"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_SecDocumentFileName"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">SEC Document File Name</label>
+        <label
+          xlink:label="label_hold_SecDocumentFileName"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">File name of the complete submission text file</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_SecDoumentURI"
+          xlink:label="hold_SecDoumentURI"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_SecDoumentURI"
+          xlink:to="label_hold_SecDoumentURI"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_SecDoumentURI"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">SEC Document File URI</label>
+        <label
+          xlink:label="label_hold_SecDoumentURI"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">URI of the complete submission text file</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_AcceptanceDateTime"
+          xlink:label="hold_AcceptanceDateTime"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_AcceptanceDateTime"
+          xlink:to="label_hold_AcceptanceDateTime"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_AcceptanceDateTime"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Acceptance Date and Time</label>
+        <label
+          xlink:label="label_hold_AcceptanceDateTime"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">SEC header detail: Timestamp when the report was accepted by the SEC (YYYYMMDDHHMMSS)</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_AccessionNumber"
+          xlink:label="hold_AccessionNumber"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_AccessionNumber"
+          xlink:to="label_hold_AccessionNumber"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_AccessionNumber"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">SEC Accession Number</label>
+        <label
+          xlink:label="label_hold_AccessionNumber"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">SEC header detail: Accession number of the entity's filing</label>
+        <loc
+          xlink:href="hold-core_2020-01-01.xsd#hold_FormType"
+          xlink:label="hold_FormType"
+          xlink:type="locator"/>
+        <labelArc
+          order="1"
+          xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label"
+          xlink:from="hold_FormType"
+          xlink:to="label_hold_FormType"
+          xlink:type="arc"/>
+        <label
+          xlink:label="label_hold_FormType"
+          xlink:role="http://www.xbrl.org/2003/role/label"
+          xlink:type="resource"
+          xml:lang="en">Form Type</label>
+        <label
+          xlink:label="label_hold_FormType"
+          xlink:role="http://www.xbrl.org/2003/role/documentation"
+          xlink:type="resource"
+          xml:lang="en">Document detail: Form Type (13F-HR, 13F/A, 13F-NT or Information Table)</label>
+        <loc
           xlink:href="hold-core_2020-01-01.xsd#hold_HeaderDataAbstract"
           xlink:label="hold_HeaderDataAbstract"
           xlink:type="locator"/>

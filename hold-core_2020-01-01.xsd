@@ -40,6 +40,20 @@
       namespace="http://xbrl.sec.gov/dei/2019-01-31"
       schemaLocation="https://xbrl.sec.gov/dei/2019/dei-2019-01-31.xsd"/>
     <xs:element
+      id="hold_AcceptanceDateTime"
+      name="AcceptanceDateTime"
+      nillable="true"
+      substitutionGroup="xbrli:item"
+      type="xbrli:dateItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
+      id="hold_AccessionNumber"
+      name="AccessionNumber"
+      nillable="true"
+      substitutionGroup="xbrli:item"
+      type="xbrli:stringItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
       id="hold_AdditionalInformation"
       name="AdditionalInformation"
       nillable="true"
@@ -102,6 +116,13 @@
       abstract="true"
       id="hold_FilingManagerAddressAbstract"
       name="FilingManagerAddressAbstract"
+      nillable="true"
+      substitutionGroup="xbrli:item"
+      type="xbrli:stringItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
+      id="hold_FormType"
+      name="FormType"
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:stringItemType"
@@ -193,6 +214,28 @@
       nillable="true"
       substitutionGroup="xbrli:item"
       type="xbrli:dateItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
+      id="hold_SecDocumentFileName"
+      name="SecDocumentFileName"
+      nillable="true"
+      substitutionGroup="xbrli:item"
+      type="xbrli:stringItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
+      id="hold_SecDoumentURI"
+      name="SecDoumentURI"
+      nillable="true"
+      substitutionGroup="xbrli:item"
+      type="xbrli:stringItemType"
+      xbrli:periodType="duration"/>
+    <xs:element
+      abstract="true"
+      id="hold_SecHeaderAbstract"
+      name="SecHeaderAbstract"
+      nillable="true"
+      substitutionGroup="xbrli:item"
+      type="xbrli:stringItemType"
       xbrli:periodType="duration"/>
     <xs:element
       abstract="true"
